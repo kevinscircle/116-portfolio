@@ -26,13 +26,30 @@
 
 html {
     background-color: var(--background-color);
+    font-size: 18px;
 }
 
 
 
-/* h1 {
+h1 {
+    color: var(--secondary-color-600);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: var(--lobser-font);
     color: var(--primary-color);
-} */
+    font-size: 1.8rem;
+    letter-spacing: 0.06rem;
+
+}
+
+p {
+    color: var(--neutral-color);
+    font-size: 1.1rem;
+   
+}
 
 
 .center-row {
@@ -48,11 +65,21 @@ html {
     flex-direction: column;
 }
 
+.text-label{
+    color: var(--background-color);
+    background-color: var(--primary-color-100);
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
 
-@media 
-    /* screen width is 600px or less */
-    screen and (max-width: 600px) {
-        .center-row {
-            flex-direction: column;
-        }
-    }
+}
+
+
+.skills-list {
+    flex-wrap: wrap;
+    width: 70%;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
